@@ -4,10 +4,12 @@
   --primary-black: #000;
   --primary-blue: #398AAA;
   --bg-light: #f8f9fa;
+  --primary-grey: rgb(117, 117, 117);
+  --primary-white: #fff;
 }
 
 body {
-  font-size: 'Roboto Condensed' sans-serif;
+  font-family: 'Roboto Condensed' sans-serif;
 }
 
 

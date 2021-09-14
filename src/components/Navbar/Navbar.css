@@ -4,6 +4,11 @@
 }
 
 /* Menu Links */
+nav {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
 
 nav a.nav-link {
     font-size: 0.8rem;
@@ -24,7 +29,7 @@ nav ul li {
 }
 
 .navbar-brand {
-    max-width: 17.25rem;
+    width: 17.25rem;
     padding: 0 !important;
     height: 6rem !important;
 }
@@ -35,4 +40,12 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
     border-top: 0.1875rem solid var(--primary-blue);
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 7.25rem;
+        padding: 0 !important;
+        height: 6rem !important;
+    }
 }
