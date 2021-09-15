@@ -5,9 +5,10 @@
 
 /* Menu Links */
 nav {
-    position: fixed;
+    position: sticky important;
     top: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 nav a.nav-link {

@@ -1,0 +1,24 @@
+
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot {
+    width: 80%;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 3px solid var(--primary-blue);
+}
+
+.about-heading {
+    color: var(--primary-blue);
+    text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+    .headshot {
+        width: 65%;
+    }
+}
