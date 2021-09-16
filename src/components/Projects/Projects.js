@@ -101,7 +101,7 @@ const Projects = () => {
     return (
         <div id='projects' className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">projects</h1>
+                <h1 className="projects-title text-uppercase text-center py-5">projects</h1>
                 <div className="image-box-wrapper row row-cols-auto justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupboxPokedex}>
                         <img src={pokedex} alt="pokedex" className="portfolio-image" />

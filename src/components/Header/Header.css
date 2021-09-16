@@ -35,7 +35,7 @@
 
 /* Main Offer Button */
 
-.btn-main-offer {
+.header-btn {
     border: 0.1875rem solid var(--primary-blue);
     text-transform: uppercase;
     border-radius: 0;

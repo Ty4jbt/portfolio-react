@@ -1,0 +1,62 @@
+
+.contact {
+    background: var(--primary-white);
+    padding: 3rem 0;
+}
+
+.contact h1 {
+    color: var(--primary-blue);
+    padding: 1.3rem 0;
+    text-transform: uppercase;
+}
+
+.contact p {
+    color: var(--primary-dark-grey);
+    font-size: 1.2rem;
+}
+
+.btn-main-offer {
+    border: 0.1875rem solid var(--primary-blue);
+    background: var(--primary-grey);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem .75rem 0.75rem 0.75rem;
+    color: var(--primary-white);
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.contact .container {
+    padding: 3rem 0;
+}
+
+.contact input, .contact textarea {
+    margin: 0.1875rem;
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--primary-blue);
+    border-top: 0.125rem solid var(--primary-grey);
+    border-left: 0.125rem solid var(--primary-grey);
+    border-right: 0.125rem solid var(--primary-grey);
+}
+
+.contact textarea {
+    height: 10.6rem;
+}
+
+@media (max-width: 768px) {
+    .contact .container {
+        padding: 0 1rem;
+    }
+
+    .contact p {
+        padding: 0 1rem;
+    }
+
+    .contact-btn {
+        padding: 0 1rem;
+    }
+}
