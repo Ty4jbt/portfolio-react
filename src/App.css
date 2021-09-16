@@ -3,15 +3,15 @@
 :root {
   --primary-black: #000;
   --primary-blue: #398AAA;
+  --primary-dark-blue: #1f7495;
   --bg-light: #f8f9fa;
-  --primary-grey: rgb(117, 117, 117);
+  --primary-grey: rgb(102, 102, 102);
+  --primary-lt-grey: rgb(153, 153, 153);
   --primary-white: #fff;
 }
 
 body {
   font-family: 'Roboto Condensed' sans-serif !important;
 }
-
-
 
 

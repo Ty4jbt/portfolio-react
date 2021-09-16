@@ -4,12 +4,6 @@
 }
 
 /* Menu Links */
-nav {
-    position: sticky important;
-    top: 0;
-    overflow: hidden;
-    z-index: 1;
-}
 
 nav a.nav-link {
     font-size: 0.8rem;
