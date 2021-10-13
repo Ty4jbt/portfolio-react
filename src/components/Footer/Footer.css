@@ -1,4 +1,25 @@
 
 .footer {
+    display: flex;
     background: var(--primary-grey);
+    height: 10rem;
+}
+
+.container {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.footer-icon {
+    padding: 0.625rem;
+    color: var(--primary-white);
+}
+
+.footer-icon:hover {
+    color: var(--primary-blue);
+}
+
+.copyright {
+    padding-top: 1.5rem;
+    color: var(--primary-blue);
 }

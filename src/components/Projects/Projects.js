@@ -118,6 +118,21 @@ const Projects = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
+                    <div className="portfolio-image-box" onClick={openPopupboxPokedex}>
+                        <img src={pokedex} alt="pokedex" className="portfolio-image" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                    </div>
+                    <div className="portfolio-image-box" onClick={openPopupboxMovieAPI}>
+                        <img src={movieAPI} alt="API code" className="portfolio-image" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                    </div>
+                    <div className="portfolio-image-box" onClick={openPopupboxMeetApp}>
+                        <img src={meetApp} alt="Meet App" className="portfolio-image" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                    </div>
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigPokedex} />
