@@ -54,6 +54,14 @@
     padding: 0 0.5rem;
 }
 
+.chat-app-popup {
+    height: 30rem;
+    width: 17rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hyper-link {
     cursor: pointer;
     color: var(--primary-blue);

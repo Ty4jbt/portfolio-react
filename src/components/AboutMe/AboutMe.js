@@ -13,7 +13,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className='about-heading'>About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nobis voluptate ut nostrum ex aperiam, debitis quae itaque quos a dolore libero fuga deserunt adipisci accusamus veniam vel sunt sed.</p>
+                    <p className='elevator-pitch'>Hi, I'm Tyler Boe and I'm a web developer. My passion for learning and logically solving problems, lead me to change careers and pursue web development. Applying my problem solving strategies and desire to learn in order to provide an enjoyable experience for those who use the website I build, drives me. I hope to take my skills and help grow a startup.</p>
                 </div>
             </div>
         </div>

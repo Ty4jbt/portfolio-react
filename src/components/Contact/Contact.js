@@ -44,7 +44,7 @@ const Contact = () => {
         <div id='contact' className='contact'>
             <div className="text-center">
                 <h1>Contact Me</h1>
-                <p>Please fill out the form and describe your project needs then click the "Contact Me" and I'll contact you as soon as possible.</p>
+                <p>Please fill out the form and describe your project needs, then click "Contact Me" and I'll contact you as soon as possible.</p>
                 <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">

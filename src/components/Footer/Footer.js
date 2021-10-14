@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="container">
-                <a 
+                {/* <a 
                 href='https://www.facebook.com/tyler.boe.52'
                 target='_blank'
                 rel="noreferrer"
@@ -28,7 +28,7 @@ const Footer = () => {
                 target='_blank'
                 rel="noreferrer"
                 className='footer-icon'><FontAwesomeIcon className='icon' 
-                icon={faTwitterSquare} size='2x'/></a>
+                icon={faTwitterSquare} size='2x'/></a> */}
                 <a 
                 href='https://github.com/Ty4jbt' 
                 target='_blank'
