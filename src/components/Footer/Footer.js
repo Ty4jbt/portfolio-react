@@ -2,7 +2,7 @@ import React from 'react';
 import '../Footer/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faFacebookSquare, faGithub, faInstagram, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -37,6 +37,14 @@ const Footer = () => {
                 className='footer-icon'><FontAwesomeIcon 
                 className='icon' 
                 icon={faGithub} 
+                size='2x'/></a>
+                <a 
+                href='https://www.linkedin.com/in/tyler-boe/' 
+                target='_blank'
+                rel="noreferrer"
+                className='footer-icon'><FontAwesomeIcon 
+                className='icon' 
+                icon={faLinkedin} 
                 size='2x'/></a>
                 <p className='copyright'>©Copyright 2021 Tyler Boe</p>
             </div>
